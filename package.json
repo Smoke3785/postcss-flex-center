@@ -1,6 +1,6 @@
 {
   "name": "postcss-flex-center",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "PostCSS plugin which provides an alias for the flex property to center children.",
   "keywords": [
     "postcss",
