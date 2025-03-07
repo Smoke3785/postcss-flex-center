@@ -1,0 +1,41 @@
+{
+  "name": "postcss-flex-center",
+  "version": "0.0.0",
+  "description": "PostCSS plugin which provides an alias for the flex property to center children.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-flex-center"
+  ],
+  "scripts": {
+    "unit": "node --test index.test.js",
+    "test": "npm run unit && eslint ."
+  },
+  "author": "Owen Rossi-Keen <owenrossikeen@gmail.com>",
+  "license": "MIT",
+  "repository": "Smoke3785/postcss-flex-center",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.27"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "postcss": "^8.4.27"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
